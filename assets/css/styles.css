@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	padding: 30px;
+	background-color: #000000;
+	color: #ffffff;
+}
+.title p {
+	margin-top: 10px;
+}
+.questions {
+	max-width: 700px;
+	margin: auto;
+}
+.question {
+	padding: 20px;
+	background: #222222;
+	margin-top: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
+}
+.question-title {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+button {
+	background-color: #222222;
+	color: #FED000;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+}
+.minus-icon {
+	display: none;
+}
+.show-text .plus-icon {
+	display: none;
+}
+.show-text .minus-icon {
+	display: inline;
+}
+.question-text {
+	display: none;
+}
+.show-text .question-text {
+	display: block;
+}
+hr {
+	margin: 20px 0px;
+	color: #FED000;
+}
+.menu,
+.menu a {
+	margin-top: 20px;
+	color: #FED000;
+	text-align: center;
+	font-size: 13px;
+	text-decoration: none;
+}
